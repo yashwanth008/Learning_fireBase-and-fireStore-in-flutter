@@ -1,5 +1,6 @@
 import 'package:firebase_auth_testing/Pages/Auth/LoginPage.dart';
 import 'package:firebase_auth_testing/Pages/Auth/SignUp.dart';
+import 'package:firebase_auth_testing/Pages/Auth/resetPassword.dart';
 import 'package:firebase_auth_testing/Pages/LandingPage.dart';
 import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter/material.dart';
@@ -24,6 +25,7 @@ class MyApp extends StatelessWidget {
         '/loginPage':(context) => const LoginPage(),
         '/SignUp':(context) => const SignUp(),
         '/landingPage':(context)=> const LandingPage(),
+        '/resetPassword':(context) => const resetPassword(),
 
       },
       title: 'Flutter Demo',

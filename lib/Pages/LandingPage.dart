@@ -40,7 +40,7 @@ class _LandingPageState extends State<LandingPage> {
               SizedBox(height: 10,),
               Text("${LoggedInUser.email}",style: TextStyle(fontSize: 15.0),),
               SizedBox(height: 10,),
-              Text("${LoggedInUser.firstName}",style: TextStyle(fontSize: 15.0),),
+              Text("${LoggedInUser.firstName}${LoggedInUser.secondName}",style: TextStyle(fontSize: 15.0),),
               SizedBox(height: 15,),
               ActionChip(label: Text('LogoOut'), onPressed: (){Logout(context);}),
             ],

@@ -113,6 +113,15 @@ class _LoginPageState extends State<LoginPage> {
                       ),
                     ),
                   ),
+                    TextButton(onPressed: (){
+                      Navigator.pushNamed(context, '/resetPassword');
+                    },
+
+                        child: Text(
+                            "Forgot Password?",
+                          textAlign: TextAlign.end,
+                          style: TextStyle(color: Colors.deepPurple),
+                        )),
                 ],
               )),
                  Row(
